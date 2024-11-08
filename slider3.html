@@ -1,0 +1,145 @@
+<html><head>
+                                <meta charset="utf-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1">
+                                <title>Snippet - BBBootstrap</title>
+                                <style>
+                                   @font-face { font-family: Arial !important; font-display: swap !important; }
+                                </style>
+                                <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+                                <link href="#" rel="stylesheet">
+                                <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                                <style>
+                                ::-webkit-scrollbar {
+                                  width: 8px;
+                                }
+                                /* Track */
+                                ::-webkit-scrollbar-track {
+                                  background: #f1f1f1; 
+                                }
+                                 
+                                /* Handle */
+                                ::-webkit-scrollbar-thumb {
+                                  background: #888; 
+                                }
+                                
+                                /* Handle on hover */
+                                ::-webkit-scrollbar-thumb:hover {
+                                  background: #555; 
+                                } body{
+    background-color: #7B1FA2;
+  }
+  
+  .container{
+      margin-top:100px;
+      margin-bottom:100px;
+  }
+
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+#custCarousel .carousel-indicators {
+    position: static;
+    margin-top:20px;
+}
+
+#custCarousel .carousel-indicators > li {
+  width:100px;
+}
+
+ #custCarousel .carousel-indicators li img {
+    display: block;
+    opacity: 0.5;
+ }
+
+  #custCarousel .carousel-indicators li.active img {
+    opacity: 1;
+  }
+
+  #custCarousel .carousel-indicators li:hover img {
+    opacity: 0.75;
+  }
+
+  .carousel-item img{
+
+    width:80%;
+  }</style>
+                                </head>
+                                <body classname="snippet-body">
+                                <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div id="custCarousel" class="carousel slide" data-ride="carousel" align="center">
+        <!-- slides -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://i.imgur.com/weXVL8M.jpg" alt="Hills">
+          </div>
+
+          <div class="carousel-item">
+            <img src="https://i.imgur.com/Rpxx6wU.jpg" alt="Hills">
+          </div>
+
+          <div class="carousel-item">
+            <img src="https://i.imgur.com/83fandJ.jpg" alt="Hills">
+          </div>
+
+          <div class="carousel-item">
+            <img src="https://i.imgur.com/JiQ9Ppv.jpg" alt="Hills">
+          </div>
+        </div>
+
+        <!-- Left right -->
+        <a class="carousel-control-prev" href="#custCarousel" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#custCarousel" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+
+        <!-- Thumbnails -->
+        <ol class="carousel-indicators list-inline">
+          <li class="list-inline-item active">
+            <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#custCarousel">
+              <img src="https://i.imgur.com/weXVL8M.jpg" class="img-fluid">
+            </a>
+          </li>
+
+          <li class="list-inline-item">
+            <a id="carousel-selector-1" data-slide-to="1" data-target="#custCarousel">
+              <img src="https://i.imgur.com/Rpxx6wU.jpg" class="img-fluid">
+            </a>
+          </li>
+
+          <li class="list-inline-item">
+            <a id="carousel-selector-2" data-slide-to="2" data-target="#custCarousel">
+              <img src="https://i.imgur.com/83fandJ.jpg" class="img-fluid">
+            </a>
+          </li>
+
+           <li class="list-inline-item">
+            <a id="carousel-selector-2" data-slide-to="3" data-target="#custCarousel">
+              <img src="https://i.imgur.com/JiQ9Ppv.jpg" class="img-fluid">
+            </a>
+          </li>
+         </ol>
+      </div>
+    </div>
+  </div>
+</div>
+                                <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+                                <script type="text/javascript" src="#"></script>
+                                <script type="text/javascript" src="#"></script>
+                                <script type="text/javascript" src="#"></script>
+                                <script type="text/javascript">#</script>
+                                <script type="text/javascript">
+                                var myLink = document.querySelectorAll('a[href="#"]');
+                                myLink.forEach(function(link){
+                                  link.addEventListener('click', function(e) {
+                                    e.preventDefault();
+                                  });
+                                });
+                               </script>
+                                
+                            </body></html>
