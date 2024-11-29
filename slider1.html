@@ -1,58 +1,16 @@
 <main>
   <ul class='slider'>
     <li class='item' style="background-image: url('https://onlineteknikdestek.com/front/images/scadafence-anasayfa-pc-slider-mintr.jpg')">
-      <div class='content'>
-        <h2 class='title'>"Lossless Youths"</h2>
-        <p class='description'> Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
-        praesentium nisi. Id laboriosam ipsam enim.  </p>
-        <button>Read More</button>
-      </div>
     </li>
     <li class='item' style="background-image: url('https://onlineteknikdestek.com/front/images/SLIDER-GARLAND-desktop-min01.jpg')">
-      <div class='content'>
-        <h2 class='title'>"Estrange Bond"</h2>
-        <p class='description'> Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
-        praesentium nisi. Id laboriosam ipsam enim.  </p>
-        <button>Read More</button>
-      </div>
     </li>
     <li class='item' style="background-image: url('https://onlineteknikdestek.com/front/images/safebreach-slider-ana.jpg')">
-      <div class='content'>
-        <h2 class='title'>"The Gate Keeper"</h2>
-        <p class='description'> Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
-        praesentium nisi. Id laboriosam ipsam enim.  </p>
-        <button>Read More</button>
-      </div>
     </li>
     <li class='item' style="background-image: url('https://onlineteknikdestek.com/front/images/salvador-ana-slider-tr001.jpg')">
-      <div class='content'>
-        <h2 class='title'>"Last Trace Of Us"</h2>
-        <p class='description'>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
-        </p>
-        <button>Read More</button>
-      </div>
     </li>
     <li class='item' style="background-image: url('https://onlineteknikdestek.com/front/images/bts-sybelle-ana-slider-tr001.jpg')">
-      <div class='content'>
-        <h2 class='title'>"Urban Decay"</h2>
-        <p class='description'>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
-        </p>
-        <button>Read More</button>
-      </div>
     </li>
     <li class='item' style="background-image: url('https://onlineteknikdestek.com/front/images/hizmetlerimizanaslidertr.jpg')">
-      <div class='content'>
-        <h2 class='title'>"The Migration"</h2>
-        <p class='description'> Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
-        praesentium nisi. Id laboriosam ipsam enim.  </p>
-        <button>Read More</button>
-      </div>
     </li>
   </ul>
   <nav class='nav'>
@@ -86,11 +44,11 @@ main {
 }
 
 .item {
-  width: 200px;
-  height: 300px;
+  width: 100px;
+  height: 150px;
   list-style-type: none;
   position: absolute;
-  top: 50%;
+  top: 75%;
   transform: translateY(-50%);
   z-index: 1;
   background-position: center;
@@ -98,6 +56,8 @@ main {
   border-radius: 20px;
   box-shadow: 0 20px 30px rgba(255,255,255,0.3) inset;
   transition: transform 0.1s, left 0.75s, top 0.75s, width 0.75s, height 0.75s;
+  opacity: 0.7;
+  
 
   &:nth-child(1), &:nth-child(2) {
     left: 0;
@@ -111,9 +71,9 @@ main {
   }
 
   &:nth-child(3) { left: 50%; }
-  &:nth-child(4) { left: calc(50% + 220px); }
-  &:nth-child(5) { left: calc(50% + 440px); }
-  &:nth-child(6) { left: calc(50% + 660px); opacity: 0; }
+  &:nth-child(4) { left: calc(50% + 120px); }
+  &:nth-child(5) { left: calc(50% + 240px); }
+  &:nth-child(6) { left: calc(50% + 360px); opacity: 0; }
 }
 
 .content {
